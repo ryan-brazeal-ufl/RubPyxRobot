@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## Welcome to RubpyxRobot GitHub Pages Project
 
-You can use the [editor on GitHub](https://github.com/ryan-brazeal-ufl/RubPyxRobot/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+An educational STEM open-source project from the [Innovation at Central Collegiate (I2C) Club](https://schools.prairiesouth.ca/centralcollegiate/) in Moose Jaw, Sask.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<table style="border:0px;">
+  <tr style="border:0px;">
+   <td style="border:0px;"><img width="185px" src="./images/I2C.png"></td>
+   <td style="border:0px;"><img width="700px" src="./images/finish_solve.gif"></td>
+  </tr>
+</table>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ryan-brazeal-ufl/RubPyxRobot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Build your own Rubik's Cube Solving Machine from 3D printed parts, some servo motors, a Raspberry Pi computer, and some screws.
