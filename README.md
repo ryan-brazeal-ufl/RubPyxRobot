@@ -9,3 +9,5 @@ An educational STEM open-source project from the [Innovation at Central Collegia
    <td style="border:0px;"><img width="700px" src="./images/finish_solve.gif"></td>
   </tr>
 </table>
+
+**See the [GitHub Pages Project](https://ryan-brazeal-ufl.github.io/RubpyxRobot/) for full details**
