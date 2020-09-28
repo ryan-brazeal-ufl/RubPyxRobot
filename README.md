@@ -3,4 +3,9 @@
 
 An educational STEM open-source project from the [Innovation at Central Collegiate (I2C) Club](https://schools.prairiesouth.ca/centralcollegiate/) in Moose Jaw, Sask.
 
-<img src="./images/finish_solve.gif">
+<table style="border:0px;">
+  <tr style="border:0px;">
+   <td style="border:0px;"><img width="185px" src="./images/I2C.png"></td>
+   <td style="border:0px;"><img width="700px" src="./images/finish_solve.gif"></td>
+  </tr>
+</table>
