@@ -171,4 +171,6 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config4.png">
 10. Press the tab key on the keyboard and then select *Finish* and press Enter. You should now be back at the Raspberry Pi's command prompt.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config5.png">
+11. Run the command `sudo i2cdetect -y 1` and you should see a table-like message returned to the screen, as shown in the following image.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/rpi_enable_i2c.png">
 
