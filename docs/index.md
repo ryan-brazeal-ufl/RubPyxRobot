@@ -2,6 +2,8 @@
 
 An educational STEM open-source project from the [Innovation at Central Collegiate (I2C) Club](https://schools.prairiesouth.ca/centralcollegiate/) in Moose Jaw, Sask.
 
+**Build your own Rubik's Cube Solving Machine from 3D printed parts, servo motors, a Raspberry Pi computer, and some nuts and bolts.**
+
 <table style="border:0px;">
   <tr style="border:0px;">
    <td style="border:0px;"><img width="125px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/I2C.png"></td>
@@ -9,7 +11,7 @@ An educational STEM open-source project from the [Innovation at Central Collegia
   </tr>
 </table>
 
-### Build your own Rubik's Cube Solving Machine from 3D printed parts, some servo motors, a Raspberry Pi computer, and some screws.
+### Getting Started
 
 **3D Model of the Rubik's Cube Machine**
 1. Trimble SketchUp - [RubpyxRobot_3D_Model.skp](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/RubpyxRobot_3D_Model.skp)
@@ -44,7 +46,7 @@ An educational STEM open-source project from the [Innovation at Central Collegia
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2166.jpeg">
     4. Estimate the midpoint between the rotation limits.<br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2167.jpeg">
-    5. Install a trimmed servo horn inline with the body of the servo motor.<br>
+    5. Install a trimmed servo horn inline with the body of the servo motor (you will need to mark the hole locations and carefully drill holes in the servo horn).<br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2168.jpeg">
     6. It's suggested to use some loctite on the servo horn bolt.<br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2169.jpeg">
@@ -74,15 +76,16 @@ An educational STEM open-source project from the [Innovation at Central Collegia
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2181.jpeg">
    19. Install the *hand_top* 3D printed part onto the rest of the Hand assembly, align the holes with the posts and the servo pinion.<br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2182.jpeg">
-   20. <br>
+   20. Use three 1/2" flat top wood screws to secure the *hand_top* part to the *hand_bottom* part.<br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2183.jpeg">
-   21. <br>
+   21. An assembled Hand.<br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2184.jpeg">
-   22. <br>
+   22. Gently open the fingers of the hand and install a soft pad on each 'fingertip' (foam or cork works well).<br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2185.jpeg">
-   23. <br>
+   23. Repeat this process three more times in order to assemble all 4 Hands.<br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2186.jpeg">
-   24. <br>
+2. Frame
+    1. <br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2187.jpeg">
-   25. <br>
+    2. <br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2188.jpeg">
