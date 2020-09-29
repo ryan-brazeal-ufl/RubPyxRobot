@@ -20,7 +20,7 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
 **3D Model of the Rubik's Cube Machine**
 1. Trimble SketchUp 2017 - [RubpyxRobot_3D_Model.skp](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/RubpyxRobot_3D_Model.skp)
 
-**3D Printed Parts List, click on a part to view its 3D model (print 4 of each part, recommended to use different colours for each, 32 total parts)**
+**3D Printed Parts List, click on a part to view its 3D model (print four of each part, recommended to use different colours for each, 32 total parts)**
 1. [bottom_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/bottom_finger.stl)
 2. [top_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/top_finger.stl)
 3. [hand_bottom.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/hand_bottom.stl) - print with supports
@@ -45,7 +45,7 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
 
 ## Machine Building Instructions
 ### Assemble the Hands
- 1. The first 5 3D Parts listed above, 2 servo motors, 2 trimmed servo horns, and some hardware are needed to build a single Hand.<br>
+ 1. The first five 3D Parts listed above, two servo motors, two trimmed servo horns, and some hardware are needed to build a single Hand.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2164.jpeg">
  2. Find the counter-clockwise rotation limit.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2165.jpeg">
@@ -77,7 +77,7 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2178.jpeg">
  16. Install the *bottom_finger* 3D printed part on the lower post of the *hand_bottom* part, see the next step for alignment information.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2179.jpeg">
- 17. The 1 dot on the *servo_pinion* part must align with the 2 dots in the *bottom_finger* part. <br>
+ 17. The single 'dot' on the *servo_pinion* part must be aligned between the double 'dots' on the *bottom_finger* part. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2180.jpeg">
  18. Install the *top_finger* 3D printed part on the upper post of the *hand_bottom* part. The *top_finger's* last gear cog must be on the OUTSIDE of the *bottom_finger's* last gear cog (pay close attention to the following image).<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2181.jpeg">
@@ -89,7 +89,7 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2184.jpeg">
  22. Gently open the fingers of the hand and install a soft pad on each 'fingertip' (foam or cork works well).<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2185.jpeg">
- 23. Repeat this process three more times in order to assemble all 4 Hands.<br>
+ 23. Repeat this process three more times in order to assemble all four Hands.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2186.jpeg">
 ### Assemble the Frame
  1. <br>
