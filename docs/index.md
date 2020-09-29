@@ -12,7 +12,7 @@ An educational STEM open-source project from the [Innovation at Central Collegia
 ### Build your own Rubik's Cube Solving Machine from 3D printed parts, some servo motors, a Raspberry Pi computer, and some screws.
 
 **3D Model of the Rubik's Cube Machine**
-[RubpyxRobot_3D_Model.skp](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/RubpyxRobot_3D_Model.skp)
+1. [RubpyxRobot_3D_Model.skp](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/RubpyxRobot_3D_Model.skp)
 
 **3D Printed Parts List (4 of each, recommended to use different colours for each, 32 total parts)**
 1. [bottom_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/bottom_finger.stl)
