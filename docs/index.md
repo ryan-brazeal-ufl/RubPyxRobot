@@ -70,4 +70,19 @@ An educational STEM open-source project from the [Innovation at Central Collegia
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2179.jpeg">
    17. The 1 dot on the *servo_pinion* part must align with the 2 dots in the *bottom_finger* part. <br>
        <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2180.jpeg">
-  
+   18. Install the *top_finger* 3D printed part on the upper post of the *hand_bottom* part. The *top_finger's* last gear cog must be on the OUTSIDE of the *bottom_finger's* last gear cog (pay close attention to the following image).<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2181.jpeg">
+   19. Install the *hand_top* 3D printed part onto the rest of the Hand assembly, align the holes with the posts and the servo pinion.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2182.jpeg">
+   20. <br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2183.jpeg">
+   21. <br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2184.jpeg">
+   22. <br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2185.jpeg">
+   23. <br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2186.jpeg">
+   24. <br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2187.jpeg">
+   25. <br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2188.jpeg">
