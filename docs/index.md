@@ -161,7 +161,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/ping_IP.png">
  5. If you are using a standard computer running Microsoft Windows, download and install the [Putty SSH client](https://www.putty.org/) and remote login to the Raspberry Pi computer at the IP address discovered in the previous step. For a standard computer running Mac OS or a Linux distro, open a terminal window and run the following command, `ssh pi@192.168.1.124` (use your specific IP address instead). **The default username/password for a Raspberry Pi computer is:** ***pi/raspberry***. If everything connects properly you should see a command line prompt as shown in the following image.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/ssh_login.png">
- 6. On the Raspberry Pi command prompt, run the command `sudo raspi-config` and the dialog shown below will appear. Using the down arrow on the keyboard, highlight the *Interfacing Options* line and press Enter.<br>
+ 6. The following steps need to be performed in order for the Raspberry Pi computer to have control over the servo motors. On the Raspberry Pi command prompt, run the command `sudo raspi-config` and the dialog shown below will appear. Using the down arrow on the keyboard, highlight the *Interfacing Options* line and press Enter.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config1.png">
  7. Select the *I2C* line and press Enter.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config2.png">
