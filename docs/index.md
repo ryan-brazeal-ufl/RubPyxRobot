@@ -147,3 +147,10 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
  5. Congratulations, your RubpyxRobot is now fully assembled!!<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2208.jpeg">
   
+## 3. Setting up the Raspberry Pi computer
+
+### i. Install Raspberry Pi Operating System on microSD Card
+
+ 1. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.
+
+
