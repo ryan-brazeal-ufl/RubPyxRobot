@@ -1,4 +1,4 @@
-## Welcome to RubpyxRobot Project
+# Welcome to RubpyxRobot Project
 
 An educational STEM open-source project from the [Innovation at Central Collegiate (I2C) Club](https://schools.prairiesouth.ca/centralcollegiate/) in Moose Jaw, Sask., Canada.
 
@@ -11,7 +11,7 @@ An educational STEM open-source project from the [Innovation at Central Collegia
   </tr>
 </table>
 
-### Getting Started
+## Getting Started
 
 Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDKmV7I) out there (with an average solve time of around 5 mins), it sure is a fun machine to build, play with, and learn from! The entire machine (minus the motors and screws) is built out of 3D printed parts. The parts 'should' be able to be printed on most desktop 3D printers, where the only limitation is if the printer has a printbed that is big enough to accommodate the *frame* part (see below). The 'algorithm' used to generate the sequence of cube turns is a beginner (layers-based) cube solving approach. On average, around 150 individual turns are required to solve any cube, hence it takes the machine a bit of time to perform these individual turns. 
 
@@ -43,8 +43,8 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
 2. Metric 3mm socket cap machine screws ~10mm threaded length
 3. Metric 3mm nuts (optional)
 
-### Machine Building Instructions ###
-#### Assemble the Hands
+## Machine Building Instructions
+### Assemble the Hands
  1. The first 5 3D Parts listed above, 2 servo motors, 2 trimmed servo horns, and some hardware are needed to build a single Hand.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2164.jpeg">
  2. Find the counter-clockwise rotation limit.<br>
@@ -61,7 +61,7 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2170.jpeg">
  8. Position the twisting servo motor on the back-edge of the *hand_bottom* 3D printed part.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2171.jpeg">
- 9. Use two metric 3mm machine bolts to attach the servo horn to the 3D printed part.<br>
+ 9. Use two metric 3mm machine bolts to attach the servo horn to the 3D printed part (if needed, nuts can be installed on the protruding bolts).<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2172.jpeg">
  10. Install the other servo horn perpendicular to the long direction of the servo motor body, then set the servo horn bolt (don't forget the loctite).<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2173.jpeg">
@@ -91,7 +91,7 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2185.jpeg">
  23. Repeat this process three more times in order to assemble all 4 Hands.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2186.jpeg">
-#### Assemble the Frame
+### Assemble the Frame
  1. <br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2187.jpeg">
  2. <br>
