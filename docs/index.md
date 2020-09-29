@@ -35,15 +35,17 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
 
 **Electronics Parts List**
 1. Raspberry Pi computer (2B/3B/3B+/4B)
-2. [Adafruit Servo Hat for Raspberry Pi](https://www.adafruit.com/product/2327)
-3. microSD card (min. 4GB)
-4. [Digital High Torque MG 996R Servo motor](https://www.amazon.ca/MG996R-Torque-Digital-SENHAI-Helicopter/dp/B0716V3WNH/ref=pd_day0_147_3/136-2894002-7736867) (Quanity 8)
-5. [Servo wire extensions](https://www.amazon.ca/dp/B07RJSM469/ref=sspa_dk_detail_4)
+2. microSD card (min. 4GB)
+3. [Adafruit Servo Hat for Raspberry Pi](https://www.adafruit.com/product/2327)
+4. [5 Volt power supply (5-10 Amps) with a 5.5mm plug connector](https://www.amazon.ca/BTF-LIGHTING-Plastic-Adapter-Transformer-WS2812B/dp/B01D8FM71S/ref=sr_1_7)
+5. [Digital High Torque MG 996R Servo motor](https://www.amazon.ca/MG996R-Torque-Digital-SENHAI-Helicopter/dp/B0716V3WNH/ref=pd_day0_147_3/136-2894002-7736867) (Quanity 8)
+6. [Servo wire extensions](https://www.amazon.ca/dp/B07RJSM469/ref=sspa_dk_detail_4)
 
-**Hardware Parts List**
+**Miscellaneous Parts List**
 1. Flat top wood screws, total length ~1/2"
 2. Metric 3mm socket cap machine screws ~10mm threaded length
 3. Metric 3mm nuts (optional)
+4. Plastic zip-ties (optional)
 
 ## 2. Machine Building Instructions
 
@@ -67,7 +69,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2171.jpeg">
  9. Use two metric 3mm machine bolts to attach the servo horn to the 3D printed part (if needed, nuts can be installed on the protruding bolts).<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2172.jpeg">
- 10. Repeat steps 2 - 4 and then install the other servo horn perpendicular to the long direction of the servo motor body, then tighten the servo horn bolt (don't forget the loctite).<br>
+ 10. Repeat steps 2-4 and then install the other servo horn perpendicular to the long direction of the servo motor body, then tighten the servo horn bolt (don't forget the loctite).<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2173.jpeg">
  11. Position the *servo_pinion* 3D printed part on the servo horn so the part's notch is at the top.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2174.jpeg">
@@ -114,15 +116,15 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2193.jpeg">
  8. Rotate the Hand about 90 deg. and then **carefully and slowly** tighten the top two servo mounting screws. Having a screwdriver with a longer shaft can help get a better angle for tightening the screws (be careful as the screws can easily become stripped).<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2194.jpeg">
- 9. Rotate the Hand about 180 deg. from its currently position and then **carefully and slowly** tighten the bottom two servo mounting screws.<br>
+ 9. Rotate the Hand about 180 deg. from its current position and then **carefully and slowly** tighten the bottom two servo mounting screws.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2195.jpeg">
- 10. <br>
+ 10. Repeat steps 6-9 three more times in order to install all four Hands within the Frame. The RubpyxRobot software (discussed in an upcoming section) references the Hands by the colours (i.e., white, blue, yellow, and red). Regardless of the colour(s) you used to printed the Hands, the software always references the white and yellow Hands as being on opposite sides of the Frame, and likewise for the blue and red hands. In hindsight, the software should have used more generic Hand 1, 2, 3, and 4 object names.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2197.jpeg">
- 11. <br>
+ 11. Optionally, the Raspberry Pi computer can be mounted to the Frame at any one of the top corners. Notice that there are NO pilot holes within the Frame for mounting the Raspberry Pi computer, but using the 1/2" wood screws it is possible to easily secure the computer to the Frame.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2199.jpeg">
- 12. <br>
+ 12. Install the Adafruit Servo Hat onto the GPIO pins on the Raspberry Pi. It is likely that the Servo Hat will first need to be assembled by soldering the 40-pin header and the sixteen 3-pin servo motor connectors to the Hat (see the [Adafruit Tutorial](https://learn.adafruit.com/adafruit-16-channel-pwm-servo-hat-for-raspberry-pi/) for more information). Notice, the following image shows a micro-USB cable soldered to the Servo Hat's GND and +5 solder pads and used to provide power to the Raspberry Pi 3B computer, this is an optional step as the Raspberry Pi can simply be powered using its own 5V power supply.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2200.jpeg">
- 13. <br>
+ 13. Depending on where the Raspberry Pi computer is mounted (or positioned beside the RubpyxRobot), servo wire extensions may need to be used to have the eight servo motors all connect to the Servo Hat. If the computer is mounted to the top edge of the Frame, it is recommended to use plastic zip-ties to hold the servo motor wires in place **(be careful not to tighten the zip-ties too tight as you risk damaging/shorting the wires).**<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2201.jpeg">
  14. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2202.jpeg">
