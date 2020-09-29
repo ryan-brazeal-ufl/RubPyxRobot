@@ -159,17 +159,16 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/add_ssh_file.png">
  4. Install the microSD card into the Raspberry Pi computer, attach a network cable to the Raspberry Pi's ethernet jack and ensure it is connected to the same network as the one being used by the standard computer. Power up computer and the Adafruit Servo Hat using a high current 5V power supply. Using the standard computer, open a command line window or terminal window and run the command `ping raspberrypi`. Hopefully the IP address of the Raspberry Pi computer should be returned to the window (in this example the returned IP address is 192.168.1.124).<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/ping_IP.png">
- 5. If you are using a standard computer running Microsoft Windows, download and install the [Putty SSH client](https://www.putty.org/) and remote login to the Raspberry Pi computer at the IP address discovered in the previous step. For a standard computer running Mac OS or a Linux distro, open a terminal window and run the following command, `ssh pi@192.168.1.124` (use your specific IP address instead). **The default username and password for a Raspberry Pi computer are:** ***pi/raspberry***.<br>
+ 5. If you are using a standard computer running Microsoft Windows, download and install the [Putty SSH client](https://www.putty.org/) and remote login to the Raspberry Pi computer at the IP address discovered in the previous step. For a standard computer running Mac OS or a Linux distro, open a terminal window and run the following command, `ssh pi@192.168.1.124` (use your specific IP address instead). **The default username/password for a Raspberry Pi computer is:** ***pi/raspberry***. If everything connects properly you should see a command line prompt as shown in the following image.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/ssh_login.png">
  6. <br>
-    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config1.png">
  7. <br>
-    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config2.png">
  8. <br>
-    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config3.png">
  9. <br>
-    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config4.png">
 10. <br>
-    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
-11. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
-    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config5.png">
+
