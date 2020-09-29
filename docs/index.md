@@ -134,14 +134,14 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2201.jpeg">
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2203.jpeg">
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2205.jpeg">
- 4. The servo motors are connected to the 3-pin servo connectors numbered 0-7 on the Adafruit Servo Hat, as follows:
-    a. white clamping servo to connector 0
-    b. white twisting servo to connector 1
-    c. blue clamping servo to connector 2
-    d. blue twisting servo to connector 3
-    e. yellow clamping servo to connector 4
-    f. yellow twisting servo to connector 5
-    g. red clamping servo to connector 6
+ 4. The servo motors are connected to the 3-pin servo connectors numbered 0-7 on the Adafruit Servo Hat, as follows:<br>
+    a. white clamping servo to connector 0<br>
+    b. white twisting servo to connector 1<br>
+    c. blue clamping servo to connector 2<br>
+    d. blue twisting servo to connector 3<br>
+    e. yellow clamping servo to connector 4<br>
+    f. yellow twisting servo to connector 5<br>
+    g. red clamping servo to connector 6<br>
     h. red twisting servo to connector 7<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2210.jpeg">
  5. Congratulations, your RubpyxRobot is now fully assembled!!<br>
