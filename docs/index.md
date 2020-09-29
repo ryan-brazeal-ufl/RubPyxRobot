@@ -17,6 +17,8 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
 
 ***Below are lists of the components that need to be 3D printed and/or purchased in order to build your very own RubpyxRobot. If you don't have access to a 3D printer, check out [3D Hubs](https://www.3dhubs.com/) to find someone near you who can possibly help with the 3D printing.***
 
+These instructions make use of a standard computer (Windows, Mac, Linux) and a cabled ethernet network (created using an inexpensive network router) to remote login to the Raspberry Pi computer and operate the RubpyxRobot. However, if a keyboard, mouse, and monitor are plugged directly into the Raspberry Pi computer, it can be logged into directly. **This is a potentially confusing part of the current project, but don't be alarmed as it's easily overcome with a little bit of reading and practice!**
+
 **3D Model of the Rubik's Cube Machine**
 1. Trimble SketchUp 2017 - [RubpyxRobot_3D_Model.skp](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/RubpyxRobot_3D_Model.skp)
 
@@ -44,7 +46,7 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
 3. Metric 3mm nuts (optional)
 
 ## Machine Building Instructions
-### Assemble the Hands
+### i. Assemble the Hands
  1. The first five 3D Parts listed above, two servo motors, two trimmed servo horns, and some hardware are needed to build a single Hand.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2164.jpeg">
  2. Find the counter-clockwise rotation limit.<br>
@@ -91,8 +93,8 @@ Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDK
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2185.jpeg">
  23. Repeat this process three more times in order to assemble all four Hands.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2186.jpeg">
-### Assemble the Frame
- 1. <br>
+### ii. Assemble the Frame
+ 1. The last three 3D Parts listed above (four of each) and 24 wood screws are needed to build the Frame.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2187.jpeg">
  2. <br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2188.jpeg">
