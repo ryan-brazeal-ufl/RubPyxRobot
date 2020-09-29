@@ -1,6 +1,6 @@
 ## Welcome to RubpyxRobot Project
 
-An educational STEM open-source project from the [Innovation at Central Collegiate (I2C) Club](https://schools.prairiesouth.ca/centralcollegiate/) in Moose Jaw, Sask.
+An educational STEM open-source project from the [Innovation at Central Collegiate (I2C) Club](https://schools.prairiesouth.ca/centralcollegiate/) in Moose Jaw, Sask., Canada.
 
 **Build your own Rubik's Cube Solving Machine from 3D printed parts, servo motors, a Raspberry Pi computer, and some nuts and bolts.**
 
@@ -13,18 +13,23 @@ An educational STEM open-source project from the [Innovation at Central Collegia
 
 ### Getting Started
 
+Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDKmV7I) out there (with an average solve time of around 5 mins), it sure is a fun machine to build, play with, and learn from! The entire machine (minus the motors and screws) is built out of 3D printed parts. The parts 'should' be able to be printed on most desktop 3D printers, where the only limitation is if the printer has a printbed that is big enough to accommodate the *frame* part (see below). The 'algorithm' used to generate the sequence of cube turns is a beginner (layers-based) cube solving approach. On average ~150 individual turns are required to solve any cube, hence it takes the machine a bit of time to perform these individual turns. 
+
+***Below are lists of the components that need to be 3D printed and/or purchased in order to build your very own RubpyxRobot. If you don't have access to a 3D printer, check out [3D Hubs](https://www.3dhubs.com/) to find someone near you who can possibly help with the 3D printing.***
+
 **3D Model of the Rubik's Cube Machine**
 1. Trimble SketchUp - [RubpyxRobot_3D_Model.skp](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/RubpyxRobot_3D_Model.skp)
 
 **3D Printed Parts List (4 of each, recommended to use different colours for each, 32 total parts)**
-1. [bottom_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/bottom_finger.stl)
-2. [top_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/top_finger.stl)
-3. [hand_bottom.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/hand_bottom.stl)
-4. [hand_top.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/hand_top.stl)
-5. [servo_pinion.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/servo_pinion.stl)
-6. [frame.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/frame.stl)
-7. [frame_brace.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/frame_brace.stl)
-8. [frame_brace_w_leg.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/frame_brace_w_leg.stl)
+1. [bottom_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/bottom_finger.stl) - Click to view 3D model
+2. [top_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/top_finger.stl)
+3. [hand_bottom.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/hand_bottom.stl)
+4. [hand_top.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/hand_top.stl)
+5. [servo_pinion.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/servo_pinion.stl)
+6. [frame.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/frame.stl)
+7. [frame_brace.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/frame_brace.stl)
+8. [frame_brace_w_leg.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/blob/master/3D_parts/frame_brace_w_leg.stl)
+9. [DOWNLOAD ALL 3D PARTS (.zip archive)](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/RubpyxRobot_3D_parts.zip)
 
 **Electronics Parts List**
 1. Raspberry Pi computer (2B/3B/3B+/4B)
