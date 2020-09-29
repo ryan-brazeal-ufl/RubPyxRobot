@@ -11,7 +11,7 @@ An educational STEM open-source project from the [Innovation at Central Collegia
   </tr>
 </table>
 
-## Getting Started
+## 1. Getting Started
 
 Though currently not the [fastest Rubik's Cube machine](https://youtu.be/o9hPXDKmV7I) out there (with an average solve time of around 5 mins), it sure is a fun machine to build, play with, and learn from! The entire machine (minus the motors and screws) is built out of 3D printed parts. The parts 'should' be able to be printed on most desktop 3D printers, where the only limitation is if the printer has a printbed that is big enough to accommodate the *frame* part (see below). The 'algorithm' used to generate the sequence of cube turns is a beginner (layers-based) cube solving approach. On average, around 150 individual turns are required to solve any cube, hence it takes the machine a bit of time to perform these individual turns. 
 
@@ -45,8 +45,10 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
 2. Metric 3mm socket cap machine screws ~10mm threaded length
 3. Metric 3mm nuts (optional)
 
-## Machine Building Instructions
+## 2. Machine Building Instructions
+
 ### i. Assemble the Hands
+
  1. The first five 3D Parts listed above, two servo motors, two trimmed servo horns, and some hardware are needed to build a single Hand.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2164.jpeg">
  2. Find the counter-clockwise rotation limit.<br>
@@ -65,7 +67,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2171.jpeg">
  9. Use two metric 3mm machine bolts to attach the servo horn to the 3D printed part (if needed, nuts can be installed on the protruding bolts).<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2172.jpeg">
- 10. Install the other servo horn perpendicular to the long direction of the servo motor body, then set the servo horn bolt (don't forget the loctite).<br>
+ 10. Repeat steps 2 - 4 and then install the other servo horn perpendicular to the long direction of the servo motor body, then tighten the servo horn bolt (don't forget the loctite).<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2173.jpeg">
  11. Position the *servo_pinion* 3D printed part on the servo horn so the part's notch is at the top.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2174.jpeg">
@@ -89,11 +91,13 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2183.jpeg">
  21. An assembled Hand.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2184.jpeg">
- 22. Gently open the fingers of the hand and install a soft pad on each 'fingertip' (foam or cork works well).<br>
+ 22. Gently open the fingers of the hand to check that they can fully open and then gently close the fingers to check that they can fully close. If the fingers do not fully open or fully close, then the position of the servo horn on the servo motor shaft needs to be adjusted. Lastly, install a soft pad on each 'fingertip' (foam or cork works well).<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2185.jpeg">
  23. Repeat this process three more times in order to assemble all four Hands.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2186.jpeg">
+     
 ### ii. Assemble the Frame
+
  1. The last three 3D Parts listed above (four of each) and 24 wood screws are needed to build the Frame.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2187.jpeg">
  2. <br>
