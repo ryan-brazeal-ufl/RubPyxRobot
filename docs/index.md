@@ -130,16 +130,12 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2199.jpeg">
  2. Install the Adafruit Servo Hat onto the GPIO pins on the Raspberry Pi. It is likely that the Servo Hat will first need to be assembled by soldering the 40-pin header and the sixteen 3-pin servo motor connectors to the Hat (see the [Adafruit Tutorial](https://learn.adafruit.com/adafruit-16-channel-pwm-servo-hat-for-raspberry-pi/) for more information). Notice, the following image shows a micro-USB cable soldered to the Servo Hat's GND and +5 solder pads and used to provide power to the Raspberry Pi 3B computer, this is an optional step as the Raspberry Pi can simply be powered using its own 5V power supply.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2200.jpeg">
- 3. Depending on where the Raspberry Pi computer is mounted (or positioned beside the RubpyxRobot), servo wire extensions may need to be used to have the eight servo motors all connect to the Servo Hat. If the computer is mounted to the top edge of the Frame, it is recommended to use plastic zip-ties to hold the servo motor wires in place **(be careful not to tighten the zip-ties too tight as you risk damaging/shorting the wires).**<br>
+ 3. Depending on where the Raspberry Pi computer is mounted (or positioned beside the RubpyxRobot), servo wire extensions may need to be used to have the eight servo motors all connect to the Servo Hat. If the computer is mounted to the top edge of the Frame, it is recommended to use plastic zip-ties to hold the servo motor wires in place **(be careful not to tighten the zip-ties too much as you risk damaging/shorting the wires).**<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2201.jpeg">
- 4. <br>
-    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2202.jpeg">
- 5. <br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2203.jpeg">
- 6. <br>
-    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2204.jpeg">
- 7. <br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2205.jpeg">
- 8. <br>
+ 4. <br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2209.jpeg">
+ 5. Congratulations, your RubpyxRobot is now fully assembled!!<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2208.jpeg">
   
