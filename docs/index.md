@@ -37,5 +37,5 @@ An educational STEM open-source project from the [Innovation at Central Collegia
 ### Machine Building Instructions ###
 1. The Hands
   1. The first 5 3D Parts listed above, 2 servo motors, and some hardware are needed to build a single Hand.
-  <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/I2C.png">
+  <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2164.jpeg">
   
