@@ -11,15 +11,18 @@ An educational STEM open-source project from the [Innovation at Central Collegia
 
 ### Build your own Rubik's Cube Solving Machine from 3D printed parts, some servo motors, a Raspberry Pi computer, and some screws.
 
+**3D Model of the Rubik's Cube Machine**
+[RubpyxRobot_3D_Model.skp](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/RubpyxRobot_3D_Model.skp)
+
 **3D Printed Parts List (4 of each, recommended to use different colours for each, 32 total parts)**
-1. bottom_finger.stl
-2. top_finger.stl
-3. hand_bottom.stl
-4. hand_top.stl
-5. servo_pinion.stl
-6. frame.stl
-7. frame_brace.stl
-8. frame_brace_w_leg.stl
+1. [bottom_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/bottom_finger.stl
+2. [top_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/top_finger.stl)
+3. [hand_bottom.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/hand_bottom.stl)
+4. [hand_top.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/hand_top.stl)
+5. [servo_pinion.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/servo_pinion.stl)
+6. [frame.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/frame.stl)
+7. [frame_brace.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/frame_brace.stl)
+8. [frame_brace_w_leg.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/frame_brace_w_leg.stl)
 
 **Electronics Parts List**
 1. Raspberry Pi computer (2B/3B/3B+/4B)
