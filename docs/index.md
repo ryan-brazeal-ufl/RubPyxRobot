@@ -151,6 +151,25 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
 
 ### i. Install Raspberry Pi Operating System on microSD Card
 
- 1. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.
-
-
+ 1. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+ 2. Write the Raspberry Pi OS image to the microSD card using either the [Raspberry Pi Imager software](https://www.raspberrypi.org/downloads/) or another suitable image file writing software (e.g., Apple Pi Baker for Mac).<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/ApplePi-Baker.png">
+ 3. Insert the microSD card back into the standard computer and follow these [instructions](https://linuxize.com/post/how-to-enable-ssh-on-raspberry-pi/) to enable a remote computer to login to the Raspberry Pi (this type of connection utilizes what is called a Secure Shell, SSH).<br> 
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/add_ssh_file.png">
+ 4. Install the microSD card into the Raspberry Pi computer, attach a network cable to the Raspberry Pi's ethernet jack and ensure it is connected to the same network as the one being used by the standard computer. Power up computer and the Adafruit Servo Hat using a high current 5V power supply. Using the standard computer, open a command line window or terminal window and run the command `ping raspberrypi`. Hopefully the IP address of the Raspberry Pi computer should be returned to the window.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/ping_IP.png">
+ 5. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+ 6. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+ 7. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+ 8. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+ 9. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+10. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
+11. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
