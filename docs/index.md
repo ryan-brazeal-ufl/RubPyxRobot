@@ -36,6 +36,38 @@ An educational STEM open-source project from the [Innovation at Central Collegia
 
 ### Machine Building Instructions ###
 1. The Hands
-  1. The first 5 3D Parts listed above, 2 servo motors, and some hardware are needed to build a single Hand.
-  <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2164.jpeg">
+    1. The first 5 3D Parts listed above, 2 servo motors, 2 trimmed servo horns, and some hardware are needed to build a single Hand.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2164.jpeg">
+    2. Find the counter-clockwise rotation limit.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2165.jpeg">
+    3. Find the clockwise rotation limit.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2166.jpeg">
+    4. Estimate the midpoint between the rotation limits.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2167.jpeg">
+    5. Install a trimmed servo horn inline with the body of the servo motor.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2168.jpeg">
+    6. It's suggested to use some loctite on the servo horn bolt.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2169.jpeg">
+    7. Twisting servo motor setup is now complete.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2170.jpeg">
+    8. Position the twisting servo motor on the back-edge of the *hand_bottom* 3D printed part.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2171.jpeg">
+    9. Use two metric 3mm machine bolts to attach the servo horn to the 3D printed part.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2172.jpeg">
+   10. Install the other servo horn perpendicular to the long direction of the servo motor body, then set the servo horn bolt (don't forget the loctite).<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2173.jpeg">
+   11. Position the *servo_pinion* 3D printed part on the servo horn so the part's notch is at the top.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2174.jpeg">
+   12. Use two metric 3mm machine bolts to attach the servo horn to the *servo_pinion* 3D printed part.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2175.jpeg">
+   13. Install the servo pinion (and servo motor) through the bottom-side of the *hand_bottom* 3D printed part.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2176.jpeg">
+   14. Align the four holes in the mounting tabs on the servo motor with the pilot holes in the *hand_bottom* 3D printed part.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2177.jpeg">
+   15. Use the four included metal screws to install the clamping servo motor.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2178.jpeg">
+   16. Install the *bottom_finger* 3D printed part on the lower post of the *hand_bottom* part, see the next step for alignment information.<br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2179.jpeg">
+   17. The 1 dot on the *servo_pinion* part must align with the 2 dots in the *bottom_finger* part. <br>
+       <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2180.jpeg">
   
