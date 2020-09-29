@@ -15,7 +15,7 @@ An educational STEM open-source project from the [Innovation at Central Collegia
 [RubpyxRobot_3D_Model.skp](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/RubpyxRobot_3D_Model.skp)
 
 **3D Printed Parts List (4 of each, recommended to use different colours for each, 32 total parts)**
-1. [bottom_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/bottom_finger.stl
+1. [bottom_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/bottom_finger.stl)
 2. [top_finger.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/top_finger.stl)
 3. [hand_bottom.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/hand_bottom.stl)
 4. [hand_top.stl](https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/3D_parts/hand_top.stl)
