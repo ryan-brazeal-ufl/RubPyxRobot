@@ -104,29 +104,29 @@ if __name__ == "__main__":
         input_key = sys.stdin.read(1)
             
         if input_key == '1':
-            current_clamp = 0
-            current_twist = 1
+            current_clamp = white_clamp
+            current_twist = white_twist
             current_clamp_value = latest_white_clamp_value
             current_twist_value = latest_white_twist_value
             print("\rControl changed to White")
             
         elif input_key == '2':
-            current_clamp = 2
-            current_twist = 3
+            current_clamp = blue_clamp
+            current_twist = blue_twist
             current_clamp_value = latest_blue_clamp_value
             current_twist_value = latest_blue_twist_value
             print("\rControl changed to Blue")
 
         elif input_key == '3':
-            current_clamp = 4
-            current_twist = 5
+            current_clamp = yellow_clamp
+            current_twist = yellow_twist
             current_clamp_value = latest_yellow_clamp_value
             current_twist_value = latest_yellow_twist_value
             print("\rControl changed to Yellow")
 
         elif input_key == '4':
-            current_clamp = 6
-            current_twist = 7
+            current_clamp = red_clamp
+            current_twist = red_twist
             current_clamp_value = latest_red_clamp_value
             current_twist_value = latest_red_twist_value            
             print("\rControl changed to Red")
