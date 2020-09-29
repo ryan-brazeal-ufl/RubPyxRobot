@@ -149,7 +149,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
   
 ## 3. Setting up the Raspberry Pi computer
 
-### i. Install Raspberry Pi Operating System on microSD Card
+### i. Install the Raspberry Pi Operating System on a microSD Card
 
  1. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
@@ -171,6 +171,8 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config4.png">
 10. Press the tab key on the keyboard and then select *Finish* and press Enter. You should now be back at the Raspberry Pi's command prompt.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspi_config5.png">
-11. Run the command `sudo i2cdetect -y 1` and you should see a table-like message returned to the screen, as shown in the following image.<br>
+11. Run the command `sudo i2cdetect -y 1` and you should see a table-like message returned to the screen, as shown in the following image. This indicates that the Raspberry Pi computer has detected the Adafruit Servo Hat and servo control will now work properly.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/rpi_enable_i2c.png">
+    
+### ii. Copy the RubpyxRobot Python scripts to the Raspberry Pi computer
 
