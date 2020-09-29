@@ -49,7 +49,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
 
 ### i. Assemble the Hands
 
- 1. The first five 3D Parts listed above, two servo motors, two trimmed servo horns, and some hardware are needed to build a single Hand.<br>
+ 1. The first five 3D printed parts listed above, two servo motors, two trimmed servo horns, and some hardware are needed to build a single Hand.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2164.jpeg">
  2. Find the counter-clockwise rotation limit.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2165.jpeg">
@@ -98,44 +98,40 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
      
 ### ii. Assemble the Frame
 
- 1. The last three 3D Parts listed above (four of each) and 24 wood screws are needed to build the Frame.<br>
+ 1. The last three 3D printed parts listed above (four of each) and 24 wood screws are needed to build the Frame. It is recommended to put small foam pads on the bottom of each of the *frame_brace_w_leg* parts to help the RubpyxRobot remain rigid while in operation.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2187.jpeg">
- 2. <br>
+ 2. The rectangular servo hole in the *frame* 3D printed part is closer to the 'top' edge of part, so ensure all four parts are orientated the correct way. The *frame* parts are designed to interconnect and use two wood screws to secure them together at one of the outside edges.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2188.jpeg">
- 3. <br>
+ 3. The Frame interconnect at the outside edges only (notice the rectangular servo holes are closer to the top edge).<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2189.jpeg">
- 4. <br>
+ 4. Flip the Frame upside so it is laying on its top edge. Install the four *frame_brace* parts at each of the inside corners using two wood screws for each.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2190.jpeg">
- 5. <br>
+ 5. Install the four *frame_brace_w_leg* parts on the bottom inside corners of the Frame using two wood screws<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2191.jpeg">
- 6. <br>
+ 6. Run the twisting servo motor's cable through the rectangular hole in the Frame and then carefully insert the servo motor's body through the hole. The cable needs to be on the top edge.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2192.jpeg">
- 7. <br>
+ 7. Push the servo motor into the Frame until the servo motor's four mounting holes align with the four pilot holes in the Frame.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2193.jpeg">
- 8. <br>
+ 8. Rotate the Hand about 90 deg. and then **carefully and slowly** tighten the top two servo mounting screws. Having a screwdriver with a longer shaft can help get a better angle for tightening the screws (be careful as the screws can easily become stripped).<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2194.jpeg">
- 9. <br>
+ 9. Rotate the Hand about 180 deg. from its currently position and then **carefully and slowly** tighten the bottom two servo mounting screws.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2195.jpeg">
  10. <br>
-     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2196.jpeg">
- 11. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2197.jpeg">
- 12. <br>
-     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2198.jpeg">
- 13. <br>
+ 11. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2199.jpeg">
- 14. <br>
+ 12. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2200.jpeg">
- 15. <br>
+ 13. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2201.jpeg">
- 16. <br>
+ 14. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2202.jpeg">
- 17. <br>
+ 15. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2203.jpeg">
- 18. <br>
+ 16. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2204.jpeg">
- 19. <br>
+ 17. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2205.jpeg">
- 20. <br>
+ 18. <br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2208.jpeg">
   
