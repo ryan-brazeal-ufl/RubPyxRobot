@@ -149,7 +149,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
   
 ## 3. Setting up the Raspberry Pi computer
 
-### i. Install the Raspberry Pi Operating System on a microSD card
+### i. Install the Raspberry Pi OS on a microSD card
 
  1. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
