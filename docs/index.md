@@ -241,7 +241,7 @@ Finally, the time has come for all of your hard work to pay off! Let's get your 
 
 Currently, the design of the Hands does not allow the Fingers to be fully opened when the Wrists are in their CCW or CW states (darn, should have thought of that)! As a result, after a turn is completed the Fingers are slowly opened while at the same time the Wrist is slowly rotated back to its neutral position. This is accomplished by a software 'trick' but seriously slows down the machine. Future plans are to redesign the Hands to allow for the Fingers to fully open and therefore allow the Wrists to return to their neutral positions much faster.
 
-**If you have any ideas for changes or improvements to the RubpyxRobot, either as a hardware design change or a software improvement, we would love to hear from you!**
+**If you have any ideas for changes or improvements to the RubpyxRobot, either as a hardware design change or a software improvement, we would love to hear from you! Or, better yet, Fork the project and submit your proposed changes or improvements back to us using a Pull Request!!**
  
 **SUBMIT ANY QUESTIONS OR COMMENTS TO THE *[ISSUES](https://github.com/ryan-brazeal-ufl/RubpyxRobot/issues)* PAGE ON THE GITHUB REPO.**
 
