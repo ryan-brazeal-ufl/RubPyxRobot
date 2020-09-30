@@ -180,7 +180,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/wget_command.png">
  2. Next, run the command <br>`unzip py.zip && mv RubpyxRobot-py RubpyxRobot`<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/unzip_command.png">
- 3. The RubpyxRobot GitHub repo. has now been downloaded to the pi user's home directory. Navigate into RubpyxRobot directory to access the Python scripts that control the machine, run the command `cd RubpyxRobot`<br> Followed by the command `chmod +x *.py`<br>
+ 3. The RubpyxRobot Python scripts have now been downloaded to a directory within the pi user's home directory. Navigate into RubpyxRobot directory to access the Python scripts that control the machine by running the command `cd RubpyxRobot`<br> Followed by the command `chmod +x *.py`<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/scripts.png">
  4. The RubpyxRobot is now ready to be calibrated!
  
