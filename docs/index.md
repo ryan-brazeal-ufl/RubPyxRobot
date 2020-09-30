@@ -188,11 +188,16 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
 
 **Please read ALL of the following instructions BEFORE beginning the calibration process!**
 
- The final step before the RubpyxRobot can solve its first Rubik's Cube, is that the Hands of the machine need to be calibrated. Specifically for each of the Hands, the Fingers need to be calibrated to know when they are grabbing the cube (**closed**) or when they are not (**opened**), as well as the Wrist needs to be calibrated to know when it is rotated to the left (**counter-clockwise/CCW**), the right (**clockwise/CW**), or in the middle (**neutral**). Each of these **5 states** is recorded as a number and stored inside the *calibration.txt* file inside the RubpyxRobot directory on the Raspberry Pi. Rather than editting the *calibration.txt* file directly, a Python calibration script is provided that allows you to easily determine these calibration numbers by manually operating one Hand of the RubpyxRobot machine at a time, and maneuvering each Hand into its 5 states.
+The final step before the RubpyxRobot can solve its first Rubik's Cube, is that the Hands of the machine need to be calibrated. Specifically for each of the Hands, the Fingers need to be calibrated to know when they are grabbing the cube (**closed**) or when they are not (**opened**), as well as the Wrist needs to be calibrated to know when it is rotated to the left (**counter-clockwise/CCW**), the right (**clockwise/CW**), or in the middle (**neutral**). Each of these **5 states** is recorded as a number and stored inside the *calibration.txt* file inside the RubpyxRobot directory on the Raspberry Pi. Rather than editting the *calibration.txt* file directly, a Python calibration script is provided that allows you to easily determine these calibration numbers by manually operating one Hand of the RubpyxRobot machine at a time, and maneuvering each Hand into its 5 states.
  
- **The calibration procedure can be performed as often as you would like, and should be performed whenever the RubpyxRobot doesn't appear to be operating smoothly.** 
+**IMPORTANT**
+
+ - **The calibration procedure can be performed as often as you would like, and should be performed whenever the RubpyxRobot doesn't appear to be operating smoothly.**
+ - **The calibration procedure can be used to calibrate a single state for a single Hand or for all five states for all four Hands. At any time during the calibration procedure you can press the 'Esc' key to end the procedure.**
  
- 1. Navigate to the RubpyxRobot directory by running the command `cd ~/RubpyxRobot`<br>Is command will **ALWAYS** navigate you to the RubpyxRobot directory regardless of the current directory you are in on the Raspberry Pi.
+ The following instructions explain how to calibrate all 5 states for all 4 hands:
+ 
+ 1. Navigate to the RubpyxRobot directory by running the command `cd ~/RubpyxRobot`<br>This command will **ALWAYS** navigate you to the RubpyxRobot directory regardless of the current directory you are in on the Raspberry Pi.
  2. Run the command `./calibrate.py`<br>This will start the calibration Python script and a message will be displayed to the screen as shown below.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration1.png">
  3. When the calibration script first starts, the white Hand (though your's might be a different colour) is activated by default. To change control to a different Hand, press the '1', '2', '3', or '4' key on your keyboard. A message will be displayed indicating which Hand is now being controlled.<br>
