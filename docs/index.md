@@ -221,3 +221,16 @@ The final step before the RubpyxRobot can solve its first Rubik's Cube, is that 
     **Be careful NOT to rotate a Hand while the Fingers are in the opened state!**<br><br>
     The following image highlights the keyboard keys used in the calibration process. The red coloured keys are used to manually maneuver the Fingers and Wrist of a Hand. The green coloured keys are used to save the current Fingers or Wrist state. The blue coloured keys are used to quickly recall the saved calibration states. The orange coloured keys are for writing the calibration values to the *calibration.txt* file (spacebar) or ending the calibration procedure (Esc). The yellow coloured keys are for changing control of the Hands.
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration_keyboard.jpg">
+
+## 5. Solving a Rubik's Cube using the RubpyxRobot
+
+Finally, the time has come for all of your hard work to pay off! Let's get your RubpyxRobot to solve a Rubik's Cube!!
+
+ 1. Navigate to the RubpyxRobot directory by running the command `cd ~/RubpyxRobot`<br>This command will **ALWAYS** navigate you to the RubpyxRobot directory regardless of the current directory you are in on the Raspberry Pi.
+ 2. You need to record the current colours for each of 54 tiles (9 tiles on each of the 6 faces) on the Cube, as a long text string comprised of the letters **w r b g o y** which refer to the first letter of the tile's colour. See the following images to understand the order for creating the long text string.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/rubiks_input_string.jpg">
+ 3. Run the command `./solve.py {your_specific_long_text_string} false`<br>This will run the *solve* Python script but the RubpyxRobot will NOT perform the solve. This is because you typed `false` at the end of the command. By stating `false` the solve script only simulates the solution and will report the number of sequences (turns) the machine will need to perform. If there is a problem with the long text string, error messages will be reported to the screen. <br>
+ 4. Finally, if no errors were reported, run the command `./solve.py {your_specific_long_text_string} true`<br>This will run the *solve* Python script and then instruct the RubpyxRobot to perform the sequential turns to solve the currently mixed Rubik's Cube.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/solved_cli.png">
+ 5. The first thing the RubpyxRobot is going to do is close the Fingers on all the Hands, then the Wrists are set to their neutral positions, and lastly the Fingers will all open. 
+ 6. Now, you have to insert the mixed Rubik's Cube into the centre of the machine with the **Top Face pointing up** and whatever colour the Front Face was when the long text string was written out  Slowly, the Fingers will close, one hand at a time. It is your responsible to hold the Cube in the centre of the machine until all four Hands are grabbing it 
