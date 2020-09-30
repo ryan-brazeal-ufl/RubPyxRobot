@@ -176,3 +176,8 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     
 ### ii. Copy the RubpyxRobot Python scripts to the Raspberry Pi computer
 
+ 1. On the Raspberry Pi command prompt, run the command `wget https://github.com/ryan-brazeal-ufl/RubpyxRobot/archive/master.zip`. **This step requires that the Raspberry Pi computer (via the network it is on) is connected to the internet.**<br>
+ 2. Next, run the command `unzip master.zip && mv RubpyxRobot-master RubpyxRobot`.<br>
+ 3. The RubpyxRobot GitHub repo. has now been downloaded to the pi user's home directory. Navigate into RubpyxRobot directory to access the Python scripts that control the machine, run the command `cd RubpyxRobot/scripts`. Followed by the command `chmod +x *.py`.<br>
+ 4. The RubpyxRobot is now ready to be calibrated!
+ 3. 
