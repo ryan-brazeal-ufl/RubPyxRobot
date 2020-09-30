@@ -215,8 +215,9 @@ The final step before the RubpyxRobot can solve its first Rubik's Cube, is that 
  9. Before ending the calibration procedure you should check the saved states for each Hand. To recall the saved calibrated states for each Hand, the following keyboard keys can be used:<br>
     a. 'K' key recalls the **neutral** state.<br>
     b. 'I' key recalls the **opened** state.<br>
-    c. ',' key recalls the **closed** state.<br>
+    c. 'comma' key recalls the **closed** state.<br>
     d. 'J' key recalls the **CCW** state.<br>
     e. 'L' key recalls the **CW** state.<br>
-    Next, maneuver each of the Hands into its **CW state**. Press the '1' key, followed by pressing and holding the 'D' key. The white Hand should begin to rotate clockwise. When the Cube appears to be rotated exactly 1 turn clockwise, press the 'H' key to save this position. A message will appear on screen indicating that the position has been saved. Before repeating this process three more times, once for each Hand, the current Hand needs to be positioned back into its **neutral state**, press and hold the 'A' key until the Cube goes back into its **neutral** position. Finish this step by pressing the 'spacebar' key.<br>
-    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration7.png">
+    **Be careful NOT to rotate a Hand while the Fingers are in the opened state!**<br><br>
+    The following image highlights the keyboard keys used in the calibration process. The red coloured keys are used to manually maneuver the Fingers and Wrist of a Hand. The green coloured keys are used to save the current Fingers or Wrist state. The blue coloured keys are used to quickly recall the saved calibration states. The orange coloured keys are for writing the calibration values to the *calibration.txt* file or ending the calibration procedure. The yellow coloured keys are for changing control of the Hands.
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration_keyboard.jpg">
