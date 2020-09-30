@@ -5,8 +5,9 @@ An educational STEM open-source project from the [Innovation at Central Collegia
 
 <table style="border:0px;">
   <tr style="border:0px;">
-   <td style="border:0px;"><img width="185px" src="./images/I2C.png"></td>
-   <td style="border:0px;"><img width="700px" src="./images/finish_solve.gif"></td>
+   <td style="border:0px;"><img width="200px" src="./images/RubpyxRobot.jpeg"></td>
+   <td style="border:0px;"><img width="600px" src="./images/finish_solve.gif"></td>
+   <td style="border:0px;"><img width="200px" src="./images/I2C.png"></td>
   </tr>
 </table>
 
