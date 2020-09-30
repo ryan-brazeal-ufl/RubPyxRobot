@@ -237,4 +237,4 @@ Finally, the time has come for all of your hard work to pay off! Let's get your 
  7. If at anytime you need to stop the machine, you can press the 'CTRL' + 'C' keys together (option 1) or simply unplug the power supply from the Adafruit Servo Hat (option 2). Option 1 will terminate the execution of the *solve* script and a new command prompt will be available on the screen. In order to cut power from the servo motors, which is something you will definitely want to do, you can run the command `./stop.py`. If you want to open the Fingers on the Hands you can run the command `./open.py`.
  8. Once the RubpyxRobot has completed the sequence of turns and solved the Rubik's Cube, all the Fingers will open and the solved Cube should fall out of the bottom of the machine.
  
-**THANKS FOR READING, SUBMITTING ANY QUESTIONS OR COMMENTS TO THE *[ISSUES](https://github.com/ryan-brazeal-ufl/RubpyxRobot/issues)* PAGE ON THE GITHUB REPO.** 
+**THANKS FOR READING!**<br>**SUBMIT ANY QUESTIONS OR COMMENTS TO THE *[ISSUES](https://github.com/ryan-brazeal-ufl/RubpyxRobot/issues)* PAGE ON THE GITHUB REPO.** 
