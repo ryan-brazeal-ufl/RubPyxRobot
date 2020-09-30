@@ -47,9 +47,9 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
 3. Metric 3mm nuts (optional)
 4. Plastic zip-ties (optional)
 
-## 2. Machine Building Instructions
+## 2. Building the Machine
 
-### i. Assemble the Hands
+### i. Assembling the Hands
 
  1. The first five 3D printed parts listed above, two servo motors, two trimmed servo horns, and some hardware are needed to build a single Hand.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2164.jpeg">
@@ -98,7 +98,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
  23. Repeat this process three more times in order to assemble all four Hands.<br>
      <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2186.jpeg">
      
-### ii. Assemble the Frame
+### ii. Assembling the Frame
 
  1. The last three 3D printed parts listed above (four of each) and 24 wood screws are needed to build the Frame. It is recommended to put small foam pads on the bottom of each of the *frame_brace_w_leg* parts to help the RubpyxRobot remain rigid while in operation.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2187.jpeg">
@@ -111,7 +111,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
  5. Install the four *frame_brace_w_leg* parts on the bottom inside corners of the Frame using two wood screws<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2191.jpeg">
     
-### iii. Install the Hands in the Frame
+### iii. Installing the Hands in the Frame
     
  1. Run the twisting servo motor's cable through the rectangular hole in the Frame and then carefully insert the servo motor's body through the hole. The cable needs to be on the top edge.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2192.jpeg">
@@ -124,7 +124,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
  5. Repeat steps 1-4 three more times in order to install all four Hands within the Frame. The RubpyxRobot software (discussed in an upcoming section) references the Hands by the colours (i.e., white, blue, yellow, and red). Regardless of the colour(s) you used to printed the Hands, the software always references the white and yellow Hands as being on opposite sides of the Frame, and likewise for the blue and red hands. In hindsight, the software should have used more generic Hand 1, 2, 3, and 4 object names.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2197.jpeg">
     
-### iv. Connect the servo motors to the Raspberry Pi
+### iv. Connecting the servo motors to the Raspberry Pi
     
  1. Optionally, the Raspberry Pi computer can be mounted to the Frame at any one of the top corners. Notice that there are NO pilot holes within the Frame for mounting the Raspberry Pi computer, but using the 1/2" wood screws it is possible to easily secure the computer to the Frame.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2199.jpeg">
@@ -149,7 +149,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
   
 ## 3. Setting up the Raspberry Pi computer
 
-### i. Install the Raspberry Pi OS on a microSD card
+### i. Installing the Raspberry Pi OS on a microSD card
 
  1. Download the latest [Raspberry Pi OS with Desktop image file](https://www.raspberrypi.org/downloads/raspberry-pi-os/) to a standard computer.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/raspberrypiOS.png">
@@ -174,7 +174,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
 11. Run the command `sudo i2cdetect -y 1` and you should see a table-like message returned to the screen, as shown in the following image. This indicates that the Raspberry Pi computer has detected the Adafruit Servo Hat and servo control will now work properly.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/rpi_enable_i2c.png">
     
-### ii. Install the RubpyxRobot Python scripts
+### ii. Installing the RubpyxRobot Python scripts
 
  1. On the Raspberry Pi command prompt, run the command <br> `wget https://github.com/ryan-brazeal-ufl/RubpyxRobot/archive/py.zip`<br>**This step requires that the Raspberry Pi (via the network it is on) is connected to the internet.**<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/wget_command.png">
@@ -184,7 +184,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/scripts.png">
  4. The RubpyxRobot is now ready to be calibrated!
  
-## 4. Calibrate the RubpyxRobot
+## 4. Calibrating the RubpyxRobot
 
 **Please read ALL of the following instructions BEFORE beginning the calibration process!**
 
@@ -199,9 +199,11 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration2.png">
  4. Begin by maneuvering each of the Hands into its **neutral state**. Press the '1' key, followed by pressing and holding the 'A' key. The white Hand should begin to rotate counter-clockwise (when viewed from behind). **How COOL is that!** Press and hold the 'D' key and the white Hand should begin to rotate clockwise. Use the 'A' and 'D' keys to position the Hand so its Fingers are straight up and down (**neutral state**) and then press the 'G' key to save this position. A message will appear on screen indicating that the position has been saved. Repeat this process three more time, once for each Hand. **Very important, finish this step by pressing the 'spacebar' key, which writes the saved positions to the *calibration.txt* file**.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration3.png">
- 4. Next, maneuver each of the Hands into its **opened state**. Press the '1' key, followed by pressing and holding the 'W' key. The Fingers on the white Hand should begin to open. When the Fingers are in the desired opened state, press the 'T' key to save this position. A message will appear on screen indicating that the position has been saved. Repeat this process three more times, once for each Hand. Finish this step by pressing the 'spacebar' key.<br>
+ 5. Next, maneuver each of the Hands into its **opened state**. Press the '1' key, followed by pressing and holding the 'W' key. The Fingers on the white Hand should begin to open. When the Fingers are in the desired opened state, press the 'T' key to save this position. A message will appear on screen indicating that the position has been saved. Repeat this process three more times, once for each Hand. Finish this step by pressing the 'spacebar' key.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration4.png">
- 5. With the Fingers of the Hands now all open, place a standard-sized Rubik's Cube into the middle of the RubpyxRobot. Press and hold the 'X' key and the Fingers on the white Hand should begin to close. When the Fingers are in the desired closed state, press the 'B' key to save this position. A message will appear on screen indicating that the position has been saved. Repeat this process three more times, once for each Hand. Finish this step by pressing the 'spacebar' key.<br>
+ 6. With the Fingers of the Hands now all open, place a standard-sized Rubik's Cube into the middle of the RubpyxRobot. Press and hold the 'X' key and the Fingers on the white Hand should begin to close. When the Fingers are in the desired closed state, press the 'B' key to save this position. A message will appear on screen indicating that the position has been saved. Repeat this process three more times, once for each Hand. Finish this step by pressing the 'spacebar' key.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration5.png">
- 6. Next, maneuver each of the Hands into its **CCW state**. Press the '1' key, followed by pressing and holding the 'A' key. The white Hand should begin to rotate counter-clockwise. When the Cube appears to be rotated exactly 1 turn counter-clockwise, press the 'F' key to save this position. A message will appear on screen indicating that the position has been saved. Before repeating this process three more times, once for each Hand, the current Hand needs to be positioned back into its **neutral state**, press and hold the 'D' key until the Cube goes back into its **neutral** position. Finish this step by pressing the 'spacebar' key.<br>
+ 7. Next, maneuver each of the Hands into its **CCW state**. Press the '1' key, followed by pressing and holding the 'A' key. The white Hand should begin to rotate counter-clockwise. When the Cube appears to be rotated exactly 1 turn counter-clockwise, press the 'F' key to save this position. A message will appear on screen indicating that the position has been saved. Before repeating this process three more times, once for each Hand, the current Hand needs to be positioned back into its **neutral state**, press and hold the 'D' key until the Cube goes back into its **neutral** position. Finish this step by pressing the 'spacebar' key.<br>
+    <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration6.png">
+ 8. Next, maneuver each of the Hands into its **CW state**. Press the '1' key, followed by pressing and holding the 'D' key. The white Hand should begin to rotate clockwise. When the Cube appears to be rotated exactly 1 turn clockwise, press the 'H' key to save this position. A message will appear on screen indicating that the position has been saved. Before repeating this process three more times, once for each Hand, the current Hand needs to be positioned back into its **neutral state**, press and hold the 'A' key until the Cube goes back into its **neutral** position. Finish this step by pressing the 'spacebar' key.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/calibration6.png">
