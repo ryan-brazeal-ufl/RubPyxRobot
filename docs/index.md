@@ -6,8 +6,9 @@ An educational STEM open-source project from the [Innovation at Central Collegia
 
 <table style="border:0px;">
   <tr style="border:0px;">
-   <td style="border:0px;"><img width="125px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/I2C.png"></td>
-   <td style="border:0px;"><img width="450px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/finish_solve.gif"></td>
+   <td style="border:0px;"><img width="100px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/RubpyxRobot.jpeg"></td>
+   <td style="border:0px;"><img width="400px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/finish_solve.gif"></td>
+   <td style="border:0px;"><img width="100px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/I2C.png"></td>
   </tr>
 </table>
 
