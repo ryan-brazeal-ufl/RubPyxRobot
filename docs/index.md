@@ -107,7 +107,7 @@ These instructions make use of a standard computer (Windows, Mac, Linux) and a c
 
  1. The last three 3D printed parts listed above (four of each) and 24 wood screws are needed to build the Frame. It is recommended to put small foam pads on the bottom of each of the *frame_brace_w_leg* parts to help the RubpyxRobot remain rigid while in operation.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2187.jpeg">
- 2. The rectangular servo hole in the *frame* 3D printed part is closer to the 'top' edge of part, so ensure all four parts are orientated the correct way. The *frame* parts are designed to interconnect and use two wood screws to secure them together at one of the outside edges.<br>
+ 2. The rectangular servo hole in the *frame* 3D printed part is closer to the 'top' edge of the part, so ensure all four parts are orientated the correct way. The *frame* parts are designed to interconnect and use two wood screws to secure them together at one of the outside edges.<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2188.jpeg">
  3. The Frame interconnect at the outside edges only (notice the rectangular servo holes are closer to the top edge).<br>
     <img width="500px" src="https://github.com/ryan-brazeal-ufl/RubpyxRobot/raw/master/images/IMG_2189.jpeg">
